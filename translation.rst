@@ -602,6 +602,7 @@ Crowdin               ``composer require symfony/crowdin-translation-provider``
 Loco (localise.biz)   ``composer require symfony/loco-translation-provider``
 Lokalise              ``composer require symfony/lokalise-translation-provider``
 Phrase                ``composer require symfony/phrase-translation-provider``
+Tolgee                ``composer require netlogix/symfony-tolgee-translation-provider``
 ====================  ===========================================================
 
 Each library includes a :ref:`Symfony Flex recipe <symfony-flex>` that will add
@@ -633,6 +634,7 @@ Provider               DSN
 Crowdin                crowdin://PROJECT_ID:API_TOKEN@ORGANIZATION_DOMAIN.default
 Loco (localise.biz)    loco://API_KEY@default
 Lokalise               lokalise://PROJECT_ID:API_KEY@default
+Tolgee                 DSN=tolgees://PROJECT_ID:API_KEY@default
 =====================  ==========================================================
 
 To enable a translation provider, customize the DSN in your ``.env`` file and
